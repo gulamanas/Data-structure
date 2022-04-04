@@ -12,3 +12,12 @@ function rectagleArea(l, h) {
   return `${area} sq unit`;
 }
 console.log(rectagleArea(4, 5));
+
+// area of circle
+
+function circleArea(r) {
+  let pi = 3.14;
+  let area = pi * r * r;
+  return `${area} sq unit`;
+}
+console.log(circleArea(4));
