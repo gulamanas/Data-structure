@@ -10,9 +10,9 @@
 function squareRoot(num) {
   for (i = 1; i < num; i++) {
     if (i * i == num) {
-      return i;
+      return `true and the value is ${i}`;
     }
   }
-  return "the given number is not a perfect square root";
+  return "false, the given number is not a perfect square root";
 }
-console.log(squareRoot(26));
+console.log(squareRoot(12100));
